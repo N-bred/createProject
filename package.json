@@ -1,0 +1,16 @@
+{
+   "name": "createproject",
+   "preferGlobal": true,
+   "bin": {
+      "createProject": "createRepo.js"
+   },
+   "version": "1.0.0",
+   "description": "Script to automate the setup of a project, creating thea github repo and opening VS Code ",
+   "main": "createRepo.js",
+   "scripts": {
+      "start": "node createRepo.js"
+   },
+   "author": "Nicolas Caballero",
+   "license": "ISC",
+   "dependencies": {}
+}
